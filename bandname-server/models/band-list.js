@@ -11,7 +11,7 @@ class BandList {
   }
 
   addBand(name) {
-    const newBand = newBand(name);
+    const newBand = new Band(name);
     this.bands.push(newBand);
     return this.bands;
   }
